@@ -15,6 +15,8 @@ namespace DataBaseAssigment.Model
 
         public int Rooms { get; set; }
 
+        public List<ApartmentApplicant> apartmentApplicants { get; set; }
+
 
     }
 }
