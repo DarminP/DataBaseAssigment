@@ -8,8 +8,10 @@ namespace DataBaseAssigment.Model
     class ApartmentContext : DbContext 
     {
         public DbSet<Apartment> Apartments { get; set; }
+        public DbSet<Applicant> Applicants { get; set; }
+        public DbSet<ApartmentApplicant> ApartmentApplicants  { get; set; }
 
-        public DbSet<Landlord> Landlords { get; set; }
+
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

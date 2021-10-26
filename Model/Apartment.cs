@@ -13,8 +13,9 @@ namespace DataBaseAssigment.Model
 
         public int Rent { get; set; }
 
-        public int LandlordId { get; set; }
-        public Landlord Landlord { get; set; }
+        public int Rooms { get; set; }
+
+
     }
 }
         
